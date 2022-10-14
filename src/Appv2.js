@@ -16,9 +16,6 @@ useEffect(() => {
     };
     fetchCats();
 }, []);
-console.log("cats")
-console.log(cats)
-
 
   return (
     <>
