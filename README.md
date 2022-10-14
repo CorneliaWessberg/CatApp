@@ -1,6 +1,10 @@
 # A React app with the purpose of showing a collection of cats. 
 You are able to sort the cat collection on different properties: Most pretty, not so pretty, how many lifes the cats have left and weather it's a cat with fur that indicates allergy. 
 
+<img src="https://github.com/CorneliaWessberg/CatApp/blob/main/public/images/cats.PNG?raw=true" alt="Cats App" width="600"  />
+
+
+
 ## How to start the project
 Write `npm start` in the terminal of the root. 
 
