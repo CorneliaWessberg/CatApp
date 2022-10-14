@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "./App.scss";
-import data from "./catdata.json";
 import CatList from "./components/catList";
 import axios from "axios";
 
