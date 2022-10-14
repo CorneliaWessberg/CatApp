@@ -1,19 +1,21 @@
 # A React app with the purpose of showing a collection of cats. 
-You are able to sort the cat collection on different properties: Most pretty, not so pretty, how many lifes the cats have left and weather it's a cat with fur that indicates allergy. 
+You are able to sort the cat collection on different properties: Most pretty, not so pretty, how many lifes the cats have left and weather it's a cat with fur that induces allergy.
+
+<img src="https://github.com/CorneliaWessberg/CatApp/blob/main/public/images/cats.PNG?raw=true" width="600px" />
 
 ## How to start the project
-Write `npm start` in the terminal of the root. 
+After donwload or clone of project, install dependencies with `npm install` in terminal window of root. To start the project, write `npm start` . 
 
-The cat collection data is stored in a static json file, `catdata.json`. I have created two examples:
+The cat collection data is stored in a static json file, `catdata.json`. I have created two versions:
 * Version 1 - fetching the data directly from the _src folder_ in React. 
 * Version 2 - as requested from our client, I fetch the data from a local webserver created in `golang` on address http://localhost. 
 
-The two different versions lives in the same folder here. You can try out the different examples by switch to render out between `Appv1` and `Appv2` in `index.js`.
+The two different versions lives in the same folder [here](./src). You can try out the different examples by switch to render out between `Appv1` and `Appv2` in `index.js`.
 
 ## Structure and style
 I'm using the same UI for both version, and have choosen to use `SCSS` for styling. 
 
-The project is following a React hierarchy, and establish a structure from start that would be convenient if the app grows bigger and more complex.
+The project is following a React hierarchy and establish a structure from start that would be convenient if the app grows bigger and more complex.
 
 
 ----
