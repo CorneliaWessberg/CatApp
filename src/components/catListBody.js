@@ -12,7 +12,7 @@ function CatListBody({ cats, sorting }) {
         return a.cutenessLevel - b.cutenessLevel;
       case "crazy":
         return a.livesLeft > b.livesLeft ? 1 : -1;
-      case "cuddle": // true - false = 1, false - true = -1
+      case "cozy": // true - false = 1, false - true = -1
         return -(a.allergyInducingFur - b.allergyInducingFur);
     }
   });
