@@ -13,7 +13,7 @@ function CatListBody({ cats, sorting }) {
       case "crazy":
         return a.livesLeft > b.livesLeft ? 1 : -1;
       case "cozy": // true - false = 1, false - true = -1
-        return -(a.allergyInducingFur - b.allergyInducingFur);
+        return a.allergyInducingFur - b.allergyInducingFur;
     }
   });
 
